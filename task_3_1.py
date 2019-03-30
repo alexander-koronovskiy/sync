@@ -11,25 +11,28 @@ x = sympy.Symbol('x')
 y = sympy.Symbol('y')
 z = sympy.Symbol('z')
 t = sympy.Symbol('t')
+u = sympy.Symbol('u')
+v = sympy.Symbol('v')
+w = sympy.Symbol('w')
 
 # read the file
 systemOfEquations = []
-with open("systems.txt", "r") as fp:
+with open("systems_u.txt", "r") as fp:
    for line in fp:
-            pattern = regex.compile(r'.+?\s+=\s+(.+?)$')
-            expressionString = regex.search(pattern, line)
-            # first match ends in group(1)
-            systemOfEquations.append(sympy.sympify(expressionString.group(1)))
+        pattern = regex.compile(r'.+?\s+=\s+(.+?)$')
+        expressionString = regex.search(pattern, line)
+        # first match ends in group(1)
+        systemOfEquations.append(sympy.sympify(expressionString.group(1)))
 
 
 def dX_dt(X, t):
-    vals = dict(x=X[0], y=X[1], z=X[2], t=t)
+    vals = dict(u=X[0], v=X[1], w=X[2], t=t)
     return [eq.evalf(subs=vals) for eq in systemOfEquations]
 
 
 def do_s_result(arg_num):
     solver_result = []
-    solver_array = odeint(dX_dt, [0.1, 0.1, 0.1], np.linspace(0, 10, 500))
+    solver_array = odeint(dX_dt, [1, 1, 0], np.linspace(0, 10, 500))
     for i in range(len(solver_array)):
         solver_result.append(solver_array[i][arg_num])
     return solver_result
