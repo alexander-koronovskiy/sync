@@ -3,6 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="a47efccc-06aa-45d3-9c03-f760af5f40d1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/equation_params.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/systems.txt" beforeDir="false" afterPath="$PROJECT_DIR$/systems.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/task_3_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/task_3_1.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,11 +19,10 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/task_3_1.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-50">
-              <caret line="30" column="67" selection-start-line="30" selection-start-column="67" selection-end-line="30" selection-end-column="67" />
+            <state relative-caret-position="475">
+              <caret line="31" column="70" selection-start-line="31" selection-start-column="70" selection-end-line="31" selection-end-column="70" />
               <folding>
                 <element signature="e#10#22#0" expanded="true" />
-                <element signature="e#313#566#0" />
               </folding>
             </state>
           </provider>
@@ -128,7 +130,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="840" extended-state="7" />
+    <frame x="-7" y="-7" width="1550" height="840" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1665565" />
@@ -171,11 +173,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/task_3_1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-50">
-          <caret line="30" column="67" selection-start-line="30" selection-start-column="67" selection-end-line="30" selection-end-column="67" />
+        <state relative-caret-position="475">
+          <caret line="31" column="70" selection-start-line="31" selection-start-column="70" selection-end-line="31" selection-end-column="70" />
           <folding>
             <element signature="e#10#22#0" expanded="true" />
-            <element signature="e#313#566#0" />
           </folding>
         </state>
       </provider>
