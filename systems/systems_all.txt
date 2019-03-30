@@ -1,0 +1,6 @@
+dx/dt = 10*y - 10*x
+dy/dt = 40*x - x*z - y
+dz/dt = x*y - 8/3*z
+du/dt = 10*v - 10*u + 10*(x - u)
+dv/dt = 35*u - u*w - v
+dw/dt = u*v - 8/3*w
