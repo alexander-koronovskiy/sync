@@ -1,50 +1,42 @@
+import math
 import matplotlib.pyplot as plt
-import numpy as np
 
 
-def cauchy(f1, f2, x10, x20, T, h):
-    x1 = [x10]
-    x2 = [x20]
-    for i in range(1, h):
-        k11 = f1((i-1)*T/h, x1[-1], x2[-1])
-        k12 = f2((i-1)*T/h, x1[-1], x2[-1])
-        k21 = f1((i-1)*T/h + T/h/2, x1[-1] + T/h/2*k11, x2[-1] + T/h/2*k12)
-        k22 = f2((i-1)*T/h + T/h/2, x1[-1] + T/h/2*k11, x2[-1] + T/h/2*k12)
-        k31 = f1((i-1)*T/h + T/h/2, x1[-1] + T/h/2*k21, x2[-1] + T/h/2*k22)
-        k32 = f2((i-1)*T/h + T/h/2, x1[-1] + T/h/2*k21, x2[-1] + T/h/2*k22)
-        k41 = f1((i-1)*T/h + T/h, x1[-1] + T/h*k31, x2[-1] + T/h*k32)
-        k42 = f2((i-1)*T/h + T/h, x1[-1] + T/h*k31, x2[-1] + T/h*k32)
-        x1.append(x1[-1] + T/h/6*(k11 + 2*k21 + 2*k31 + k41))
-        x2.append(x2[-1] + T/h/6*(k12 + 2*k22 + 2*k32 + k42))
-    return x1, x2
+# First Order ODE (y' = f(x, y)) Solver using Euler method
+# xa: initial value of independent variable
+# xb: final value of independent variable
+# ya: initial value of dependent variable
+# n : number of steps (higher the better)
+# Returns value of y at xb.
+def euler(f, xa, xb, ya, n):
+      h = (xb - xa) / float(n)
+      x = xa
+      y = ya
+      Y = []
+      for i in range(n):
+          y += h * f(x, y)
+          x += h
+          Y.append(y)
+      return Y
 
 
-def f1(t, x1, x2):
-    return x2
+# Second Order ODE (y'' = f(x, y, y')) Solver using Euler method
+# y1a: initial value of first derivative of dependent variable
+def euler2(f, xa, xb, ya, y1a, n):
+      h = (xb - xa) / float(n)
+      x = xa
+      y = ya
+      y1 = y1a
+      Y = []
+      for i in range(n):
+          y1 += h * f(x, y, y1)
+          y += h * y1
+          x += h
+          Y.append(y)
+      return Y
 
 
-def f2(t, x1, x2):
-    return -x1
-
-
-def true_x1(t):
-    return np.cos(t) + np.sin(t)
-
-
-def true_x2(t):
-    return np.cos(t) - np.sin(t)
-
-
-x10 = 1
-x20 = 1
-T = 10
-h = 100
-
-x1, x2 = cauchy(f1, f2, x10, x20, T, h)
-t = np.linspace(0, T, h)
-plt.xlabel('t')
-plt.ylabel('x1')
-plt.plot(x1, "red", label="approximation_x1")
-plt.plot(true_x1(t), "blue", label="true_x1")
-plt.legend(bbox_to_anchor=(0.97, 0.27))
-plt.show()
+if __name__ == "__main__":
+    plt.plot(euler(lambda x, y: math.cos(x) + math.sin(y), 0, 10, 1, 100))
+    print(euler2(lambda x, y, y1: math.sin(x * y) - y1, 0, 1, 1, 1, 1000))
+    plt.show()
