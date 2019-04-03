@@ -94,8 +94,7 @@ if __name__ == '__main__':
     s = solve()
     # save()
 
-    # plots
+    plot_f(s[0], s[1], s[2])  # 3D Ressler system plot
     phase = do_diff_arrays(do_phase_shift(s[0], s[1]), do_phase_shift(s[3], s[4]))  # task 3.1
-    plot_f(s[0], s[1], s[2])
     plt.plot(phase)
     plt.show()
