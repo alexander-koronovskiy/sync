@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a47efccc-06aa-45d3-9c03-f760af5f40d1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ExtendedAnalysis.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FourierPlot.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DiffEq.py" beforeDir="false" afterPath="$PROJECT_DIR$/DiffEq.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fourier.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExtendedAnalysis.py" beforeDir="false" afterPath="$PROJECT_DIR$/ExtendedAnalysis.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,38 +13,25 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/DiffEq.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="254">
-              <caret line="108" lean-forward="true" selection-start-line="108" selection-end-line="108" />
+            <state relative-caret-position="2525">
+              <caret line="108" selection-start-line="108" selection-end-line="108" />
               <folding>
                 <element signature="e#0#31#0" expanded="true" />
-                <element signature="e#184#204#0" />
-                <element signature="e#221#244#0" />
-                <element signature="e#261#293#0" />
-                <element signature="e#310#355#0" />
-                <element signature="e#372#400#0" />
-                <element signature="e#417#449#0" />
-                <element signature="e#159#696#0" />
-                <element signature="e#716#1033#0" />
                 <element signature="e#1450#1510#0" />
-                <element signature="e#1708#1818#0" />
                 <element signature="e#1682#1823#0" />
-                <element signature="e#1859#2326#0" />
-                <element signature="e#2279#2473#0" />
-                <element signature="e#2458#2546#0" />
-                <element signature="e#2695#2745#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ExtendedAnalysis.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="179">
-              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+            <state relative-caret-position="450">
+              <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -58,7 +42,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/FourierPlot.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="254">
+            <state relative-caret-position="600">
               <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
@@ -105,14 +89,14 @@
         <option value="$PROJECT_DIR$/F.py" />
         <option value="$PROJECT_DIR$/FourierPlot.py" />
         <option value="$PROJECT_DIR$/Fourier.py" />
-        <option value="$PROJECT_DIR$/ExtendedAnalysis.py" />
         <option value="$PROJECT_DIR$/DiffEq.py" />
+        <option value="$PROJECT_DIR$/ExtendedAnalysis.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="752" />
-    <option name="y" value="68" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="751" />
+    <option name="y" value="67" />
     <option name="width" value="1155" />
     <option name="height" value="985" />
   </component>
@@ -121,7 +105,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -133,6 +116,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -360,9 +344,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Fourier.nb">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Fourier.nb" />
     <entry file="file://$PROJECT_DIR$/../задача_курсовая/MyTest.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
@@ -382,18 +364,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/FourierPlot.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="254">
+        <state relative-caret-position="600">
           <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ExtendedAnalysis.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>
@@ -402,25 +374,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/DiffEq.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="254">
-          <caret line="108" lean-forward="true" selection-start-line="108" selection-end-line="108" />
+        <state relative-caret-position="2525">
+          <caret line="108" selection-start-line="108" selection-end-line="108" />
           <folding>
             <element signature="e#0#31#0" expanded="true" />
-            <element signature="e#184#204#0" />
-            <element signature="e#221#244#0" />
-            <element signature="e#261#293#0" />
-            <element signature="e#310#355#0" />
-            <element signature="e#372#400#0" />
-            <element signature="e#417#449#0" />
-            <element signature="e#159#696#0" />
-            <element signature="e#716#1033#0" />
             <element signature="e#1450#1510#0" />
-            <element signature="e#1708#1818#0" />
             <element signature="e#1682#1823#0" />
-            <element signature="e#1859#2326#0" />
-            <element signature="e#2279#2473#0" />
-            <element signature="e#2458#2546#0" />
-            <element signature="e#2695#2745#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ExtendedAnalysis.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
           </folding>
         </state>
       </provider>
