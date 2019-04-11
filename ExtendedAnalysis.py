@@ -5,12 +5,13 @@ import WorkWFiles
 
 
 def gap_monitor(r):
-    gap_p = []
+    gap_p = []; gap_v = []
     critical_parameter = np.pi
     for i in range(len(r) - 1):
         if r[i + 1] - r[i] > critical_parameter:
             gap_p.append(i+1)
-    return gap_p
+            gap_v.append(r[i+1])
+    return [gap_p, gap_v]
 
 
 # relation parameters
@@ -27,8 +28,8 @@ for i in eps_test_v:
 
     # r(t) building
     r = 2 * np.sin(np.array(fi) / 2)
-    print(gap_monitor(r))
-    plt.plot(gap_monitor(r)); plt.show()
+    print(gap_monitor(r)[1])
+    plt.plot(gap_monitor(r)[0], gap_monitor(r)[1]); plt.show()
     # plt.plot(r, '.'); plt.title("r(t) eps=" + str(i));
     # plt.xlabel('t'); plt.ylabel('r'); plt.show()
 
