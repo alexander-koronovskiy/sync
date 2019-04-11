@@ -1,3 +1,0 @@
-﻿du/dt = 10*v - 10*u
-dv/dt = 35*u - u*w - v
-dw/dt = u*v - 8/3*w

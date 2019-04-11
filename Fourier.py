@@ -4,24 +4,35 @@ import scipy.fftpack
 import WorkWFiles
 
 # Number of sample points
-N = 500
-T = 1.0 / 1000.0
+N = 7500
+T = 1.0 / 500.0
 
 # frequency example
 x = np.linspace(0.0, N*T, N)
 y = np.sin(800.0 * 2.0*np.pi*x) + 0.5*np.sin(500.0 * 2.0*np.pi*x)
-# din sys data
-relation_type = 'strong'
-x_sol = WorkWFiles.write_to_list('solutions_' + relation_type + '/y.txt')
 
-# solution - Fourier analysis building
-yf = scipy.fftpack.fft(x_sol)
-xf = np.linspace(0.0, 1.0/(2.0*T), N/2)
+# relation parameters
+eps_test_v = [0, 0.112, 0.118, 0.2]
 
-# plots
-fig, ax = plt.subplots()
-ax.plot(xf, 2.0/N * np.abs(yf[:N//2]))
-plt.title(relation_type + ' relation type')  # weak: ε = 0.2; strong: ε = 20
-plt.xlabel('Time[t]')
-plt.ylabel('Phase[$f$]')
-plt.show()
+for i in eps_test_v:
+    # s - solution of the equation; fi - phase difference
+    s = WorkWFiles.write_to_list("solutions/u_eps=" + str(i) + ".dat")
+    fi = WorkWFiles.write_to_list("solutions/phase_diff_eps=" + str(i) + ".dat")
+
+    # s, fi plotting
+    # DiffEq.plot_f(s[0], s[1], s[2])
+    plt.plot(fi[5000:6000]); plt.title("fi eps=" + str(i)); plt.ylim(-3, 3)
+
+    # r(t) building
+    r = 2 * np.sin(np.array(fi) / 2)[5000:6000]
+    # plt.plot(r); plt.title("r eps=" + str(i))
+
+    # fourier analysis building
+    yf = scipy.fftpack.fft(s)
+    xf = np.linspace(0.0, 1.0/(2.0*T), N/2)
+
+    # fourier plots
+    fig, ax = plt.subplots(); ax.plot(xf, 2.0/N * np.abs(yf[:N//2]))
+    plt.xlabel('Frequency[$f$]'); plt.ylabel('x'); plt.ylim(0, 20)
+    plt.title("eps=" + str(i))
+    plt.show()

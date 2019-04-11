@@ -1,3 +1,0 @@
-﻿dx/dt = 10*y - 10*x
-dy/dt = 40*x - x*z - y
-dz/dt = x*y - 8/3*z
