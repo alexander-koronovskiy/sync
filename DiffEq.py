@@ -6,7 +6,7 @@ import WorkWFiles
 
 
 # Equation System func, ε - relation parameter
-eps = 0.2
+eps = 0.3
 def f_x(x):
     return - x[1] - x[2]
 def f_y(x):
@@ -73,6 +73,7 @@ def do_phase_shift(X, Y):
         phase_array.append(math.atan2(Y[i], X[i]))
     return phase_array
 
+
 # save solution results in text files
 def save(s):
     WorkWFiles.write_to_file(s[0], 'solutions/x_eps=' + str(eps) + '.dat')
@@ -103,5 +104,5 @@ if __name__ == '__main__':
     s = solve()
     # save(s)
     fi = phase_diff(s); fi_part = fi[5000:6000]
-    # plot_f(s[0], s[1], s[2])  # 3D Ressler system plot
+    plot_f(s[0], s[1], s[2])  # 3D Ressler system plot
     do_plot(fi_part)
