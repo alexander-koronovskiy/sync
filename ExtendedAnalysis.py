@@ -1,37 +1,58 @@
 import numpy as np
 import matplotlib.pyplot as plt
 import FourierPlot
+import DiffEq
 import WorkWFiles
 
 
 def gap_monitor(r):
     gap_p = []; gap_v = []
-    critical_parameter = np.pi
+    critical_parameter = np.pi / 2
     for i in range(len(r) - 1):
-        if r[i + 1] - r[i] > critical_parameter:
+        if abs(r[i + 1] - r[i]) > critical_parameter:
             gap_p.append(i+1)
             gap_v.append(r[i+1])
     return [gap_p, gap_v]
 
 
+def diff_arr(r):
+    diff_array = []
+    for i in range(len(r) - 1):
+        diff = r[i + 1] - r[i]
+        diff_array.append(diff)
+    return diff_array
+
+
+# real time solution
+# s = DiffEq.solve(); s0 = s[3]
+# fi = DiffEq.phase_diff(s)
+
 # relation parameters
 eps_test_v = [0, 0.112, 0.118, 0.2]
+l = []
 
 for i in eps_test_v:
-    # s - solution of the equation; fi - phase difference
-    s = WorkWFiles.write_to_list("solutions/u_eps=" + str(i) + ".dat")
+    # recorded solution: s - solution of the equation; fi - phase difference
+    s0 = WorkWFiles.write_to_list("solutions/u_eps=" + str(i) + ".dat")
     fi = WorkWFiles.write_to_list("solutions/phase_diff_eps=" + str(i) + ".dat")
+
+    # r(t) building
+    r = 2 * np.sin(np.array(fi) / 2)
+    r1 = gap_monitor(r)
+
+    # diff arrays - разность между точками-разрывами
+    # r(1 - 2) - ламинарная, r2(2n + 1) - ламинарные; r2(2n) - турбулентные
+    r2 = diff_arr(r1[0])
+    l.append(np.mean(r2[::2]))
 
     # fi plotting
     # plt.plot(fi[5000:6000]); plt.title("$f$(t) eps=" + str(i)); plt.ylim(0, 2)
     # plt.xlabel('t'); plt.ylabel('$f$'); plt.show()
 
-    # r(t) building
-    r = 2 * np.sin(np.array(fi) / 2)
-    print(gap_monitor(r)[1])
-    plt.plot(gap_monitor(r)[0], gap_monitor(r)[1]); plt.show()
-    # plt.plot(r, '.'); plt.title("r(t) eps=" + str(i));
-    # plt.xlabel('t'); plt.ylabel('r'); plt.show()
+    # r(t) plotting
+    # plt.plot(r); plt.xlabel('t'); plt.ylabel('r')
+    # plt.xlim(0, 2000); plt.title("r(t) eps=" + str(i))
+    # plt.plot(r1[0], r1[1])
+    # plt.show()
 
-    # fourier analysis
-    # FourierPlot.do_fourier_plot(s, i)
+plt.plot(eps_test_v, l); plt.xlabel('eps'); plt.ylabel('l'); plt.show()

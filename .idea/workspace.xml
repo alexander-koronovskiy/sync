@@ -15,12 +15,21 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/DiffEq.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="108" selection-start-line="108" selection-end-line="108" />
+            <state relative-caret-position="296">
+              <caret line="84" selection-start-line="84" selection-end-line="84" />
               <folding>
                 <element signature="e#0#31#0" expanded="true" />
+                <element signature="e#196#216#0" />
+                <element signature="e#233#256#0" />
+                <element signature="e#273#305#0" />
+                <element signature="e#322#367#0" />
+                <element signature="e#384#412#0" />
+                <element signature="e#429#461#0" />
                 <element signature="e#1450#1510#0" />
+                <element signature="e#1541#1651#0" />
                 <element signature="e#1682#1823#0" />
+                <element signature="e#1881#2326#0" />
+                <element signature="e#2350#2544#0" />
               </folding>
             </state>
           </provider>
@@ -29,10 +38,25 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ExtendedAnalysis.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="28" column="19" lean-forward="true" selection-start-line="28" selection-start-column="19" selection-end-line="28" selection-end-column="19" />
+            <state relative-caret-position="254">
+              <caret line="58" lean-forward="true" selection-start-line="58" selection-end-line="58" />
               <folding>
-                <element signature="e#0#18#0" expanded="true" />
+                <element signature="e#114#346#0" />
+                <element signature="e#384#496#0" />
+                <element signature="e#363#383#0" />
+                <element signature="e#1191#1204#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Lyapunov.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="254">
+              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+              <folding>
+                <element signature="e#0#20#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -41,7 +65,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/FourierPlot.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="600">
+            <state relative-caret-position="650">
               <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
@@ -89,11 +113,13 @@
         <option value="$PROJECT_DIR$/FourierPlot.py" />
         <option value="$PROJECT_DIR$/Fourier.py" />
         <option value="$PROJECT_DIR$/DiffEq.py" />
+        <option value="$PROJECT_DIR$/task1.py" />
         <option value="$PROJECT_DIR$/ExtendedAnalysis.py" />
+        <option value="$PROJECT_DIR$/Lyapunov.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="751" />
     <option name="y" value="67" />
     <option name="width" value="1155" />
@@ -119,7 +145,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/DiffEq.py" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/task1.py" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunDashboard">
@@ -134,7 +160,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.ExtendedAnalysis">
+  <component name="RunManager" selected="Python.Lyapunov">
     <configuration name="DiffEq" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="sync" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -177,6 +203,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="Lyapunov" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="sync" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\Alexander\Anaconda3\envs\sync\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Lyapunov.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="MyTest" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="sync" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -200,6 +247,7 @@
     </configuration>
     <list>
       <item itemvalue="Python.ExtendedAnalysis" />
+      <item itemvalue="Python.Lyapunov" />
       <item itemvalue="Python.DiffEq" />
       <item itemvalue="Python.MyTest" />
     </list>
@@ -233,7 +281,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="840" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1665565" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -361,9 +408,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/DiffEq.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="296">
+          <caret line="84" selection-start-line="84" selection-end-line="84" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+            <element signature="e#196#216#0" />
+            <element signature="e#233#256#0" />
+            <element signature="e#273#305#0" />
+            <element signature="e#322#367#0" />
+            <element signature="e#384#412#0" />
+            <element signature="e#429#461#0" />
+            <element signature="e#1450#1510#0" />
+            <element signature="e#1541#1651#0" />
+            <element signature="e#1682#1823#0" />
+            <element signature="e#1881#2326#0" />
+            <element signature="e#2350#2544#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/FourierPlot.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
+        <state relative-caret-position="650">
           <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
@@ -371,24 +439,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DiffEq.py">
+    <entry file="file://$PROJECT_DIR$/Lyapunov.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="108" selection-start-line="108" selection-end-line="108" />
+        <state relative-caret-position="254">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
           <folding>
-            <element signature="e#0#31#0" expanded="true" />
-            <element signature="e#1450#1510#0" />
-            <element signature="e#1682#1823#0" />
+            <element signature="e#0#20#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ExtendedAnalysis.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="28" column="19" lean-forward="true" selection-start-line="28" selection-start-column="19" selection-end-line="28" selection-end-column="19" />
+        <state relative-caret-position="254">
+          <caret line="58" lean-forward="true" selection-start-line="58" selection-end-line="58" />
           <folding>
-            <element signature="e#0#18#0" expanded="true" />
+            <element signature="e#114#346#0" />
+            <element signature="e#384#496#0" />
+            <element signature="e#363#383#0" />
+            <element signature="e#1191#1204#0" />
           </folding>
         </state>
       </provider>
