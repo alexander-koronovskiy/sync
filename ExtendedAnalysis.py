@@ -1,6 +1,6 @@
 import numpy as np
 import matplotlib.pyplot as plt
-import FourierPlot
+import accessory.FourierPlot
 import DiffEq
 import WorkWFiles
 
@@ -38,7 +38,7 @@ for i in eps_test_v:
 
     # r(t) building
     r = 2 * np.sin(np.array(fi) / 2)
-    WorkWFiles.write_to_file(r, 'r_lambda/r_i=' + str(i)+'.txt')
+    WorkWFiles.write_to_file(r, 'r_lambda/r_eps=' + str(i)+'.txt')
     r1 = gap_monitor(r)
 
     # diff arrays - разность между точками-разрывами
@@ -51,9 +51,13 @@ for i in eps_test_v:
     # plt.xlabel('t'); plt.ylabel('$f$'); plt.show()
 
     # r(t) plotting
-    # plt.plot(r); plt.xlabel('t'); plt.ylabel('r')
-    # plt.xlim(0, 2000); plt.title("r(t) eps=" + str(i))
+    plt.plot(r); plt.xlabel('t'); plt.ylabel('r')
+    plt.xlim(0, 2000); plt.title("r(t) eps=" + str(i))
     # plt.plot(r1[0], r1[1])
-    # plt.show()
+    plt.show()
+
+    # lyapunov exponent plotting
+    le = WorkWFiles.write_to_list('r_lambda/lapunov_eps='+str(i)+'.txt')
+    plt.plot(le); plt.title("lyapunov exponent eps="+str(i)); plt.show()
 
 plt.plot(eps_test_v, l); plt.xlabel('eps'); plt.ylabel('lambda'); plt.show()
