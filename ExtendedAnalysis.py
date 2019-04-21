@@ -38,6 +38,7 @@ for i in eps_test_v:
 
     # r(t) building
     r = 2 * np.sin(np.array(fi) / 2)
+    WorkWFiles.write_to_file(r, 'r_lambda/r_i=' + str(i)+'.txt')
     r1 = gap_monitor(r)
 
     # diff arrays - разность между точками-разрывами
@@ -55,4 +56,4 @@ for i in eps_test_v:
     # plt.plot(r1[0], r1[1])
     # plt.show()
 
-plt.plot(eps_test_v, l); plt.xlabel('eps'); plt.ylabel('l'); plt.show()
+plt.plot(eps_test_v, l); plt.xlabel('eps'); plt.ylabel('lambda'); plt.show()
