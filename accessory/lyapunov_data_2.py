@@ -5,7 +5,7 @@ from tqdm import trange
 import WorkWFiles
 
 # my eps value
-eps = 0.118
+# eps = 0; var = 'v'
 
 # prepare data constants
 SKIP = 0
@@ -55,7 +55,8 @@ def prepare_data(func, file_name: str = "data.txt", dimension: int = 0):
             f.write("%f\n" % point[dimension])
 
 
-def compute_lapunov(file_name: str = "../r_lambda/r_eps=" + str(eps) +".txt"):
+def compute_lapunov(var, eps):
+    file_name = "../solutions/" + var + "_eps=" + str(eps) + ".dat"
     with open(file_name, "r") as f:
         data = np.asarray([float(p) for p in f.read().split()], dtype=np.float64)
 
@@ -127,8 +128,11 @@ if __name__ == '__main__':
     COUNT = 20000
     # prepare_data(ressler, dimension=0)
     # another_lyap()
+    vars = ['u', 'v', 'w', 'x', 'y', 'z']
+    eps = [0, 0.112, 0.118, 0.2, 0.3]
 
-    lap = compute_lapunov()
-    WorkWFiles.write_to_file(lap, '../r_lambda/lapunov_eps=' + str(eps) + '.txt')
-    plt.plot(lap)
-    plt.show()
+    for i in vars:
+        for j in eps:
+            lap = compute_lapunov(i, j)
+            WorkWFiles.write_to_file(lap, '../r_lambda/lapunov_' +
+                                     i + '_eps=' + str(j) + '.txt')

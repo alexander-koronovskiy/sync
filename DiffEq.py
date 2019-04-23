@@ -6,7 +6,7 @@ import WorkWFiles
 
 
 # Equation System func, ε - relation parameter
-eps = 0.3
+eps = 0.112
 def f_x(x):
     return - x[1] - x[2]
 def f_y(x):
@@ -70,7 +70,12 @@ def do_phase_shift(X, Y):
     n = min(len(X), len(Y))
     phase_array = []
     for i in range(n):
-        phase_array.append(math.atan2(Y[i], X[i]))
+        if math.atan2(Y[i], X[i]) > math.pi:
+            phase_array.append(math.atan2(Y[i], X[i]) - math.pi)
+        if math.atan2(Y[i], X[i]) < - math.pi:
+            phase_array.append(math.atan2(Y[i], X[i]) + math.pi)
+        else:
+            phase_array.append(math.atan2(Y[i], X[i]))
     return phase_array
 
 
@@ -84,7 +89,12 @@ def save(s):
     WorkWFiles.write_to_file(s[5], 'solutions/w_eps=' + str(eps) + '.dat')
 def phase_diff(s):
     phase = do_diff_arrays(do_phase_shift(s[0], s[1]), do_phase_shift(s[3], s[4]))  # task 3.1
-    # WorkWFiles.write_to_file(phase, 'solutions/phase_diff_eps=' + str(eps) + '.dat')
+    for i in range(len(phase) - 1):
+        if (phase[i + 1] - phase[i] > 2*math.pi):
+            phase[i+1] = phase[i+1] - 2*math.pi
+        if (phase[i + 1] - phase[i] < - 2*math.pi):
+            phase[i+1] = phase[i+1] + 2*math.pi
+    WorkWFiles.write_to_file(phase, 'solutions/phase_diff_eps=' + str(eps) + '.dat')
     return phase
 
 
@@ -96,13 +106,15 @@ def plot_f(x, y, z):
     plt.show()
 def do_plot(*args):
     for i in args:
-        plt.plot(i)
+        plt.plot(i, '.')
     plt.show()
 
 
 if __name__ == '__main__':
     s = solve()
     # save(s)
-    fi = phase_diff(s); fi_part = fi[5000:6000]
-    plot_f(s[0], s[1], s[2])  # 3D Ressler system plot
-    do_plot(fi_part)
+    f1 = do_phase_shift(s[0], s[1]); f1_part = f1[5000:6000]
+    f2 = do_phase_shift(s[3], s[4]); f2_part = f2[5000:6000]
+    a = phase_diff(s)
+    # plot_f(s[0], s[1], s[2])  # 3D Ressler system plot
+    do_plot(f1_part, f2_part); do_plot(a[5000:6000])

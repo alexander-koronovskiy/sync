@@ -3,14 +3,26 @@
   <component name="ChangeListManager">
     <list default="true" id="a47efccc-06aa-45d3-9c03-f760af5f40d1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DiffEq.py" beforeDir="false" afterPath="$PROJECT_DIR$/DiffEq.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ExtendedAnalysis.py" beforeDir="false" afterPath="$PROJECT_DIR$/ExtendedAnalysis.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FourierPlot.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lyapunov.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/r_lambda/r_i=0.112.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/r_lambda/r_i=0.118.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/r_lambda/r_i=0.2.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/r_lambda/r_i=0.3.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/r_lambda/r_i=0.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/accessory/data.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/accessory/in.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/accessory/lapunov_data.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/accessory/lapunov_stream.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/accessory/lyapunov_data_2.py" beforeDir="false" afterPath="$PROJECT_DIR$/accessory/lyapunov_data_2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/r_lambda/lapunov_eps=0.112.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/r_lambda/lapunov_eps=0.118.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/r_lambda/lapunov_eps=0.2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/r_lambda/lapunov_eps=0.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/r_lambda/r_eps=0.112.txt" beforeDir="false" afterPath="$PROJECT_DIR$/r_lambda/r_eps=0.112.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/r_lambda/r_eps=0.118.txt" beforeDir="false" afterPath="$PROJECT_DIR$/r_lambda/r_eps=0.118.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/r_lambda/r_eps=0.2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/r_lambda/r_eps=0.2.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/r_lambda/r_eps=0.txt" beforeDir="false" afterPath="$PROJECT_DIR$/r_lambda/r_eps=0.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/phase_diff_eps=0.112.dat" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/phase_diff_eps=0.112.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/phase_diff_eps=0.118.dat" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/phase_diff_eps=0.118.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/phase_diff_eps=0.2.dat" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/phase_diff_eps=0.2.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/phase_diff_eps=0.3.dat" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/phase_diff_eps=0.3.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/phase_diff_eps=0.dat" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/phase_diff_eps=0.dat" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,13 +32,40 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ExtendedAnalysis.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="254">
-              <caret line="63" lean-forward="true" selection-start-line="63" selection-end-line="63" />
+            <state relative-caret-position="204">
+              <caret line="65" lean-forward="true" selection-start-line="65" selection-end-line="65" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
+                <element signature="e#128#360#0" />
+                <element signature="e#384#516#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/DiffEq.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="118" column="56" lean-forward="true" selection-start-line="118" selection-start-column="56" selection-end-line="118" selection-end-column="56" />
+              <folding>
+                <element signature="e#0#31#0" expanded="true" />
+                <element signature="e#196#216#0" />
+                <element signature="e#233#256#0" />
+                <element signature="e#273#305#0" />
+                <element signature="e#322#367#0" />
+                <element signature="e#384#412#0" />
+                <element signature="e#429#461#0" />
+                <element signature="e#514#1051#0" />
+                <element signature="e#1069#1385#0" />
+                <element signature="e#1450#1510#0" />
+                <element signature="e#1541#1651#0" />
+                <element signature="e#1682#1823#0" />
+                <element signature="e#1881#2326#0" />
+                <element signature="e#2583#2671#0" />
               </folding>
             </state>
           </provider>
@@ -35,15 +74,14 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/accessory/lyapunov_data_2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="725">
-              <caret line="46" selection-start-line="46" selection-end-line="46" />
+            <state relative-caret-position="254">
+              <caret line="138" lean-forward="true" selection-start-line="138" selection-end-line="138" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
                 <element signature="e#344#382#0" />
                 <element signature="e#414#616#0" />
                 <element signature="e#649#817#0" />
                 <element signature="e#897#1140#0" />
-                <element signature="e#1262#2359#0" />
                 <element signature="e#2321#3189#0" />
               </folding>
             </state>
@@ -87,7 +125,6 @@
         <option value="$PROJECT_DIR$/F.py" />
         <option value="$PROJECT_DIR$/FourierPlot.py" />
         <option value="$PROJECT_DIR$/Fourier.py" />
-        <option value="$PROJECT_DIR$/DiffEq.py" />
         <option value="$PROJECT_DIR$/task1.py" />
         <option value="$PROJECT_DIR$/Lyapunov.py" />
         <option value="$PROJECT_DIR$/../задача_курсовая/ExtendedFunc.py" />
@@ -96,6 +133,7 @@
         <option value="$PROJECT_DIR$/accessory/lapunov_data.py" />
         <option value="$PROJECT_DIR$/accessory/lyapunov_data_2.py" />
         <option value="$PROJECT_DIR$/ExtendedAnalysis.py" />
+        <option value="$PROJECT_DIR$/DiffEq.py" />
       </list>
     </option>
   </component>
@@ -121,7 +159,7 @@
             <path>
               <item name="sync" type="b2602c69:ProjectViewProjectNode" />
               <item name="sync" type="462c0819:PsiDirectoryNode" />
-              <item name="r_lambda" type="462c0819:PsiDirectoryNode" />
+              <item name="accessory" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -130,7 +168,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../задача_курсовая/MyTest.py" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/DiffEq.py" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunDashboard">
@@ -145,7 +183,28 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.ExtendedAnalysis">
+  <component name="RunManager" selected="Python.DiffEq">
+    <configuration name="DiffEq" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="sync" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\Alexander\Anaconda3\envs\sync\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DiffEq.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="ExtendedAnalysis" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="sync" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -190,6 +249,7 @@
     </configuration>
     <list>
       <item itemvalue="Python.ExtendedAnalysis" />
+      <item itemvalue="Python.DiffEq" />
       <item itemvalue="Python.lyapunov_data_2" />
     </list>
   </component>
@@ -289,16 +349,6 @@
     <entry file="file://$PROJECT_DIR$/systems/systems_all.txt" />
     <entry file="file://$PROJECT_DIR$/systems/systems.txt" />
     <entry file="file://$PROJECT_DIR$/task_3_1.py" />
-    <entry file="file://$PROJECT_DIR$/../задача_курсовая/AKF.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-85">
-          <caret line="14" column="15" lean-forward="true" selection-start-line="14" selection-start-column="15" selection-end-line="14" selection-end-column="15" />
-          <folding>
-            <element signature="e#0#12#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../задача_курсовая/LogMap.py" />
     <entry file="file://$PROJECT_DIR$/../задача_курсовая/ApproximationFunc.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -324,16 +374,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/HurstTest.py" />
     <entry file="file://$PROJECT_DIR$/../задача_курсовая/HurstTest.py" />
-    <entry file="file://$PROJECT_DIR$/../задача_курсовая/ExtendedFunc.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-          <folding>
-            <element signature="e#0#31#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Lyapunov.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="275">
@@ -344,41 +384,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DiffEq.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1525">
-          <caret line="84" selection-start-line="84" selection-end-line="84" />
-          <folding>
-            <element signature="e#0#31#0" expanded="true" />
-            <element signature="e#196#216#0" />
-            <element signature="e#233#256#0" />
-            <element signature="e#273#305#0" />
-            <element signature="e#322#367#0" />
-            <element signature="e#384#412#0" />
-            <element signature="e#429#461#0" />
-            <element signature="e#1450#1510#0" />
-            <element signature="e#1541#1651#0" />
-            <element signature="e#1682#1823#0" />
-            <element signature="e#1881#2326#0" />
-            <element signature="e#2350#2544#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/FourierPlot.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="650">
           <caret line="26" selection-start-line="26" selection-end-line="26" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../задача_курсовая/MyTest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="30" column="15" lean-forward="true" selection-start-line="30" selection-start-column="15" selection-end-line="30" selection-end-column="15" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>
@@ -405,17 +414,46 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../задача_курсовая/ExtendedFunc.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-200">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../задача_курсовая/MyTest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="302">
+          <caret line="30" column="15" lean-forward="true" selection-start-line="30" selection-start-column="15" selection-end-line="30" selection-end-column="15" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../задача_курсовая/AKF.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1135">
+          <caret line="14" column="15" lean-forward="true" selection-start-line="14" selection-start-column="15" selection-end-line="14" selection-end-column="15" />
+          <folding>
+            <element signature="e#0#12#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/accessory/lyapunov_data_2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="725">
-          <caret line="46" selection-start-line="46" selection-end-line="46" />
+        <state relative-caret-position="254">
+          <caret line="138" lean-forward="true" selection-start-line="138" selection-end-line="138" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
             <element signature="e#344#382#0" />
             <element signature="e#414#616#0" />
             <element signature="e#649#817#0" />
             <element signature="e#897#1140#0" />
-            <element signature="e#1262#2359#0" />
             <element signature="e#2321#3189#0" />
           </folding>
         </state>
@@ -423,10 +461,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ExtendedAnalysis.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="254">
-          <caret line="63" lean-forward="true" selection-start-line="63" selection-end-line="63" />
+        <state relative-caret-position="204">
+          <caret line="65" lean-forward="true" selection-start-line="65" selection-end-line="65" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
+            <element signature="e#128#360#0" />
+            <element signature="e#384#516#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DiffEq.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="118" column="56" lean-forward="true" selection-start-line="118" selection-start-column="56" selection-end-line="118" selection-end-column="56" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+            <element signature="e#196#216#0" />
+            <element signature="e#233#256#0" />
+            <element signature="e#273#305#0" />
+            <element signature="e#322#367#0" />
+            <element signature="e#384#412#0" />
+            <element signature="e#429#461#0" />
+            <element signature="e#514#1051#0" />
+            <element signature="e#1069#1385#0" />
+            <element signature="e#1450#1510#0" />
+            <element signature="e#1541#1651#0" />
+            <element signature="e#1682#1823#0" />
+            <element signature="e#1881#2326#0" />
+            <element signature="e#2583#2671#0" />
           </folding>
         </state>
       </provider>

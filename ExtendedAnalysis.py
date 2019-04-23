@@ -27,8 +27,10 @@ def diff_arr(r):
 # s = DiffEq.solve(); s0 = s[3]
 # fi = DiffEq.phase_diff(s)
 
-# relation parameters
+# relation params: 0, 0.112, 0.118, 0.2, 0.3
+# variables: 'x', 'y', 'z', 'u', 'v', 'w'
 eps_test_v = [0, 0.112, 0.118, 0.2]
+param = ['x', 'y', 'z', 'u', 'v', 'w']
 l = []
 
 for i in eps_test_v:
@@ -52,12 +54,14 @@ for i in eps_test_v:
 
     # r(t) plotting
     plt.plot(r); plt.xlabel('t'); plt.ylabel('r')
-    plt.xlim(0, 2000); plt.title("r(t) eps=" + str(i))
+    plt.xlim(5000, 7000); plt.title("r(t) eps=" + str(i))
     # plt.plot(r1[0], r1[1])
     plt.show()
 
     # lyapunov exponent plotting
-    le = WorkWFiles.write_to_list('r_lambda/lapunov_eps='+str(i)+'.txt')
-    plt.plot(le); plt.title("lyapunov exponent eps="+str(i)); plt.show()
+    for j in param:
+        le = WorkWFiles.write_to_list('r_lambda/lapunov_' + j + '_eps=' + str(i) + '.txt')
+        plt.plot(le); plt.title("lyapunov exponents eps=" + str(i))
+    plt.show()
 
 plt.plot(eps_test_v, l); plt.xlabel('eps'); plt.ylabel('lambda'); plt.show()
