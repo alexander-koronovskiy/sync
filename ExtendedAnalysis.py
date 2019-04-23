@@ -53,10 +53,10 @@ for i in eps_test_v:
     # plt.xlabel('t'); plt.ylabel('$f$'); plt.show()
 
     # r(t) plotting
-    plt.plot(r); plt.xlabel('t'); plt.ylabel('r')
-    plt.xlim(5000, 7000); plt.title("r(t) eps=" + str(i))
+    # plt.plot(r); plt.xlabel('t'); plt.ylabel('r')
+    # plt.xlim(5000, 7000); plt.title("r(t) eps=" + str(i))
     # plt.plot(r1[0], r1[1])
-    plt.show()
+    # plt.show()
 
     # lyapunov exponent plotting
     for j in param:
@@ -64,4 +64,4 @@ for i in eps_test_v:
         plt.plot(le); plt.title("lyapunov exponents eps=" + str(i))
     plt.show()
 
-plt.plot(eps_test_v, l); plt.xlabel('eps'); plt.ylabel('lambda'); plt.show()
+plt.plot(eps_test_v, l); plt.xlabel('eps'); plt.ylabel('l_average'); plt.show()

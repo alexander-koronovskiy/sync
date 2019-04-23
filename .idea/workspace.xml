@@ -1,29 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a47efccc-06aa-45d3-9c03-f760af5f40d1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DiffEq.py" beforeDir="false" afterPath="$PROJECT_DIR$/DiffEq.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ExtendedAnalysis.py" beforeDir="false" afterPath="$PROJECT_DIR$/ExtendedAnalysis.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/accessory/data.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/accessory/in.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/accessory/lapunov_data.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/accessory/lapunov_stream.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/accessory/lyapunov_data_2.py" beforeDir="false" afterPath="$PROJECT_DIR$/accessory/lyapunov_data_2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/r_lambda/lapunov_eps=0.112.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/r_lambda/lapunov_eps=0.118.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/r_lambda/lapunov_eps=0.2.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/r_lambda/lapunov_eps=0.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/r_lambda/r_eps=0.112.txt" beforeDir="false" afterPath="$PROJECT_DIR$/r_lambda/r_eps=0.112.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/r_lambda/r_eps=0.118.txt" beforeDir="false" afterPath="$PROJECT_DIR$/r_lambda/r_eps=0.118.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/r_lambda/r_eps=0.2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/r_lambda/r_eps=0.2.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/r_lambda/r_eps=0.txt" beforeDir="false" afterPath="$PROJECT_DIR$/r_lambda/r_eps=0.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/solutions/phase_diff_eps=0.112.dat" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/phase_diff_eps=0.112.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/solutions/phase_diff_eps=0.118.dat" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/phase_diff_eps=0.118.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/solutions/phase_diff_eps=0.2.dat" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/phase_diff_eps=0.2.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/solutions/phase_diff_eps=0.3.dat" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/phase_diff_eps=0.3.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/solutions/phase_diff_eps=0.dat" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/phase_diff_eps=0.dat" afterDir="false" />
-    </list>
+    <list default="true" id="a47efccc-06aa-45d3-9c03-f760af5f40d1" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,8 +13,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ExtendedAnalysis.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="65" lean-forward="true" selection-start-line="65" selection-end-line="65" />
+            <state relative-caret-position="254">
+              <caret line="67" lean-forward="true" selection-start-line="67" selection-end-line="67" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
                 <element signature="e#128#360#0" />
@@ -46,11 +24,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/DiffEq.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="204">
-              <caret line="118" column="56" lean-forward="true" selection-start-line="118" selection-start-column="56" selection-end-line="118" selection-end-column="56" />
+              <caret line="118" column="56" selection-start-line="118" selection-start-column="56" selection-end-line="118" selection-end-column="56" />
               <folding>
                 <element signature="e#0#31#0" expanded="true" />
                 <element signature="e#196#216#0" />
@@ -71,11 +49,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/accessory/lyapunov_data_2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="254">
-              <caret line="138" lean-forward="true" selection-start-line="138" selection-end-line="138" />
+            <state relative-caret-position="2225">
+              <caret line="138" selection-start-line="138" selection-end-line="138" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
                 <element signature="e#344#382#0" />
@@ -137,7 +115,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="750" />
     <option name="y" value="65" />
     <option name="width" value="1155" />
@@ -155,11 +133,6 @@
             <path>
               <item name="sync" type="b2602c69:ProjectViewProjectNode" />
               <item name="sync" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sync" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sync" type="462c0819:PsiDirectoryNode" />
-              <item name="accessory" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -183,7 +156,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.DiffEq">
+  <component name="RunManager" selected="Python.ExtendedAnalysis">
     <configuration name="DiffEq" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="sync" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -226,31 +199,9 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="lyapunov_data_2" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
-      <module name="sync" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="C:\Users\Alexander\Anaconda3\envs\sync\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/accessory" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/accessory/lyapunov_data_2.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <list>
       <item itemvalue="Python.ExtendedAnalysis" />
       <item itemvalue="Python.DiffEq" />
-      <item itemvalue="Python.lyapunov_data_2" />
     </list>
   </component>
   <component name="SvnConfiguration">
@@ -277,14 +228,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="840" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1665565" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1665565" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32909605" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.91738266" visible="true" weight="0.36158192" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.91738266" visible="true" weight="0.36158192" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3997175" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -444,25 +394,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/accessory/lyapunov_data_2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="254">
-          <caret line="138" lean-forward="true" selection-start-line="138" selection-end-line="138" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-            <element signature="e#344#382#0" />
-            <element signature="e#414#616#0" />
-            <element signature="e#649#817#0" />
-            <element signature="e#897#1140#0" />
-            <element signature="e#2321#3189#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ExtendedAnalysis.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="65" lean-forward="true" selection-start-line="65" selection-end-line="65" />
+        <state relative-caret-position="254">
+          <caret line="67" lean-forward="true" selection-start-line="67" selection-end-line="67" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
             <element signature="e#128#360#0" />
@@ -474,7 +409,7 @@
     <entry file="file://$PROJECT_DIR$/DiffEq.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
-          <caret line="118" column="56" lean-forward="true" selection-start-line="118" selection-start-column="56" selection-end-line="118" selection-end-column="56" />
+          <caret line="118" column="56" selection-start-line="118" selection-start-column="56" selection-end-line="118" selection-end-column="56" />
           <folding>
             <element signature="e#0#31#0" expanded="true" />
             <element signature="e#196#216#0" />
@@ -490,6 +425,21 @@
             <element signature="e#1682#1823#0" />
             <element signature="e#1881#2326#0" />
             <element signature="e#2583#2671#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/accessory/lyapunov_data_2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2225">
+          <caret line="138" selection-start-line="138" selection-end-line="138" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+            <element signature="e#344#382#0" />
+            <element signature="e#414#616#0" />
+            <element signature="e#649#817#0" />
+            <element signature="e#897#1140#0" />
+            <element signature="e#2321#3189#0" />
           </folding>
         </state>
       </provider>
