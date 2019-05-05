@@ -1,6 +1,6 @@
 import numpy as np
 import matplotlib.pyplot as plt
-import accessory.FourierPlot
+import accessory.Runge
 import DiffEq
 import WorkWFiles
 
@@ -29,7 +29,7 @@ def diff_arr(r):
 
 # relation params: 0, 0.112, 0.118, 0.2, 0.3
 # variables: 'x', 'y', 'z', 'u', 'v', 'w'
-eps_test_v = [0, 0.112, 0.118, 0.2]
+eps_test_v = [0.118, 0.2, 0.3]
 param = ['x', 'y', 'z', 'u', 'v', 'w']
 l = []
 
@@ -53,15 +53,17 @@ for i in eps_test_v:
     # plt.xlabel('t'); plt.ylabel('$f$'); plt.show()
 
     # r(t) plotting
-    # plt.plot(r); plt.xlabel('t'); plt.ylabel('r')
-    # plt.xlim(5000, 7000); plt.title("r(t) eps=" + str(i))
-    # plt.plot(r1[0], r1[1])
-    # plt.show()
+    plt.plot(r); plt.xlabel('t'); plt.ylabel('r')
+    plt.xlim(5000, 7000); plt.title("r(t) eps=" + str(i))
+    plt.plot(r1[0], r1[1])
+    plt.show()
 
     # lyapunov exponent plotting
+    X = []
     for j in param:
         le = WorkWFiles.write_to_list('r_lambda/lapunov_' + j + '_eps=' + str(i) + '.txt')
-        plt.plot(le); plt.title("lyapunov exponents eps=" + str(i))
+        X.append(sum(le)/ 7500); plt.plot(X, '.')
+        plt.title("lyapunov exponents eps=" + str(i))
     plt.show()
 
 plt.plot(eps_test_v, l); plt.xlabel('eps'); plt.ylabel('l_average'); plt.show()

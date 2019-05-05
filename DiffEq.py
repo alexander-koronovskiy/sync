@@ -6,7 +6,7 @@ import WorkWFiles
 
 
 # Equation System func, ε - relation parameter
-eps = 0.112
+eps = 4
 def f_x(x):
     return - x[1] - x[2]
 def f_y(x):
@@ -70,11 +70,11 @@ def do_phase_shift(X, Y):
     n = min(len(X), len(Y))
     phase_array = []
     for i in range(n):
-        if math.atan2(Y[i], X[i]) > math.pi:
-            phase_array.append(math.atan2(Y[i], X[i]) - math.pi)
-        if math.atan2(Y[i], X[i]) < - math.pi:
-            phase_array.append(math.atan2(Y[i], X[i]) + math.pi)
-        else:
+     #   if math.atan2(Y[i], X[i]) > math.pi:
+      #      phase_array.append(math.atan2(Y[i], X[i]) - math.pi)
+       # if math.atan2(Y[i], X[i]) < - math.pi:
+        #    phase_array.append(math.atan2(Y[i], X[i]) + math.pi)
+       # else:
             phase_array.append(math.atan2(Y[i], X[i]))
     return phase_array
 
@@ -89,11 +89,11 @@ def save(s):
     WorkWFiles.write_to_file(s[5], 'solutions/w_eps=' + str(eps) + '.dat')
 def phase_diff(s):
     phase = do_diff_arrays(do_phase_shift(s[0], s[1]), do_phase_shift(s[3], s[4]))  # task 3.1
-    for i in range(len(phase) - 1):
-        if (phase[i + 1] - phase[i] > 2*math.pi):
-            phase[i+1] = phase[i+1] - 2*math.pi
-        if (phase[i + 1] - phase[i] < - 2*math.pi):
-            phase[i+1] = phase[i+1] + 2*math.pi
+    # for i in range(len(phase) - 1):
+    #    if (phase[i + 1] - phase[i] > 2*math.pi):
+    #        phase[i+1] = phase[i+1] - 2*math.pi
+    #   if (phase[i + 1] - phase[i] < - 2*math.pi):
+    #        phase[i+1] = phase[i+1] + 2*math.pi
     WorkWFiles.write_to_file(phase, 'solutions/phase_diff_eps=' + str(eps) + '.dat')
     return phase
 
