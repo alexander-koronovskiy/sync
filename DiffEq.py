@@ -2,15 +2,17 @@ import matplotlib.pyplot as plt
 from mpl_toolkits.mplot3d import Axes3D
 import numpy as np
 import math
+import accessory.FourierPlot as ffp
 import WorkWFiles
 
 
-# Equation System func, ε - relation parameter
-eps = 4
+# Equation System func, ε - relation parameter 1, 1.4, 1.8, 2, 2.4
+eps = 0.16
+omega_d = 1.1
 def f_x(x):
-    return - x[1] - x[2]
+    return - omega_d*x[1] - x[2]
 def f_y(x):
-    return x[0] + 0.15*x[1]
+    return omega_d*x[0] + 0.15*x[1]
 def f_z(x):
     return 0.2 + x[0]*x[2] - 10*x[2]
 def f_u(x):
@@ -81,12 +83,12 @@ def do_phase_shift(X, Y):
 
 # save solution results in text files
 def save(s):
-    WorkWFiles.write_to_file(s[0], 'solutions/x_eps=' + str(eps) + '.dat')
-    WorkWFiles.write_to_file(s[1], 'solutions/y_eps=' + str(eps) + '.dat')
-    WorkWFiles.write_to_file(s[2], 'solutions/z_eps=' + str(eps) + '.dat')
-    WorkWFiles.write_to_file(s[3], 'solutions/u_eps=' + str(eps) + '.dat')
-    WorkWFiles.write_to_file(s[4], 'solutions/v_eps=' + str(eps) + '.dat')
-    WorkWFiles.write_to_file(s[5], 'solutions/w_eps=' + str(eps) + '.dat')
+    WorkWFiles.write_to_file(s[0], 'solutions/'+ str(omega_d) + '_x_eps=' + str(eps) + '.dat')
+    WorkWFiles.write_to_file(s[1], 'solutions/'+ str(omega_d) + '_y_eps=' + str(eps) + '.dat')
+    WorkWFiles.write_to_file(s[2], 'solutions/'+ str(omega_d) + '_z_eps=' + str(eps) + '.dat')
+    WorkWFiles.write_to_file(s[3], 'solutions/'+ str(omega_d) + '_u_eps=' + str(eps) + '.dat')
+    WorkWFiles.write_to_file(s[4], 'solutions/'+ str(omega_d) + '_v_eps=' + str(eps) + '.dat')
+    WorkWFiles.write_to_file(s[5], 'solutions/'+ str(omega_d) + '_w_eps=' + str(eps) + '.dat')
 def phase_diff(s):
     phase = do_diff_arrays(do_phase_shift(s[0], s[1]), do_phase_shift(s[3], s[4]))  # task 3.1
     # for i in range(len(phase) - 1):
@@ -94,7 +96,7 @@ def phase_diff(s):
     #        phase[i+1] = phase[i+1] - 2*math.pi
     #   if (phase[i + 1] - phase[i] < - 2*math.pi):
     #        phase[i+1] = phase[i+1] + 2*math.pi
-    WorkWFiles.write_to_file(phase, 'solutions/phase_diff_eps=' + str(eps) + '.dat')
+    WorkWFiles.write_to_file(phase, 'phases/'+ str(omega_d) + '_eps=' + str(eps) + '.dat')
     return phase
 
 
@@ -111,10 +113,13 @@ def do_plot(*args):
 
 
 if __name__ == '__main__':
-    s = solve()
-    # save(s)
-    f1 = do_phase_shift(s[0], s[1]); f1_part = f1[5000:6000]
-    f2 = do_phase_shift(s[3], s[4]); f2_part = f2[5000:6000]
-    a = phase_diff(s)
-    # plot_f(s[0], s[1], s[2])  # 3D Ressler system plot
-    do_plot(f1_part, f2_part); do_plot(a[5000:6000])
+    # s = solve(); save(s)
+    #phase_diff(s)
+
+    eps_v = [0.1, 0.14, 0.16, 0.18, 0.2, 0.24]
+    omega_v = [0.8, 0.9, 1, 1.1]
+    for i in eps_v:
+        for j in omega_v:
+            p_arrays = WorkWFiles.write_to_list('solutions/'+str(j)+'_u_eps='+str(i)+'.dat')
+            ffp.do_fourier_plot(p_arrays, 'omega='+str(j)+'_eps='+str(i) + '.png',
+                                'omega='+str(j)+'_eps='+str(i))
