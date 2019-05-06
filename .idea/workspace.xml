@@ -4,50 +4,18 @@
     <list default="true" id="a47efccc-06aa-45d3-9c03-f760af5f40d1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DiffEq.py" beforeDir="false" afterPath="$PROJECT_DIR$/DiffEq.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/accessory/AKF.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/accessory/in.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/accessory/lyapunov_data_2.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/solutions/phase_diff_eps=0.112.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/solutions/phase_diff_eps=0.118.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/solutions/phase_diff_eps=0.2.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/solutions/phase_diff_eps=0.3.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/solutions/phase_diff_eps=0.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/solutions/phase_diff_eps=1.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/solutions/phase_diff_eps=2.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/solutions/phase_diff_eps=3.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/solutions/phase_diff_eps=4.5.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/solutions/phase_diff_eps=4.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/solutions/phase_diff_eps=5.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/solutions/u_eps=0.112.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/solutions/u_eps=0.118.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/solutions/u_eps=0.2.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/solutions/u_eps=0.3.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/solutions/u_eps=0.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/solutions/v_eps=0.112.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/solutions/v_eps=0.118.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/solutions/v_eps=0.2.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/solutions/v_eps=0.3.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/solutions/v_eps=0.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/solutions/w_eps=0.112.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/solutions/w_eps=0.118.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/solutions/w_eps=0.2.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/solutions/w_eps=0.3.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/solutions/w_eps=0.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/solutions/x_eps=0.112.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/solutions/x_eps=0.118.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/solutions/x_eps=0.2.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/solutions/x_eps=0.3.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/solutions/x_eps=0.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/solutions/y_eps=0.112.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/solutions/y_eps=0.118.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/solutions/y_eps=0.2.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/solutions/y_eps=0.3.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/solutions/y_eps=0.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/solutions/z_eps=0.112.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/solutions/z_eps=0.118.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/solutions/z_eps=0.2.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/solutions/z_eps=0.3.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/solutions/z_eps=0.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pics/omega=0.9_eps=0.1.png" beforeDir="false" afterPath="$PROJECT_DIR$/pics/omega=0.9_eps=0.1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pics/omega=0.9_eps=0.14.png" beforeDir="false" afterPath="$PROJECT_DIR$/pics/omega=0.9_eps=0.14.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pics/omega=0.9_eps=0.16.png" beforeDir="false" afterPath="$PROJECT_DIR$/pics/omega=0.9_eps=0.16.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pics/omega=0.9_eps=0.18.png" beforeDir="false" afterPath="$PROJECT_DIR$/pics/omega=0.9_eps=0.18.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pics/omega=0.9_eps=0.2.png" beforeDir="false" afterPath="$PROJECT_DIR$/pics/omega=0.9_eps=0.2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pics/omega=0.9_eps=0.24.png" beforeDir="false" afterPath="$PROJECT_DIR$/pics/omega=0.9_eps=0.24.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pics/omega=1.1_eps=0.1.png" beforeDir="false" afterPath="$PROJECT_DIR$/pics/omega=1.1_eps=0.1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pics/omega=1.1_eps=0.14.png" beforeDir="false" afterPath="$PROJECT_DIR$/pics/omega=1.1_eps=0.14.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pics/omega=1.1_eps=0.16.png" beforeDir="false" afterPath="$PROJECT_DIR$/pics/omega=1.1_eps=0.16.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pics/omega=1.1_eps=0.18.png" beforeDir="false" afterPath="$PROJECT_DIR$/pics/omega=1.1_eps=0.18.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pics/omega=1.1_eps=0.2.png" beforeDir="false" afterPath="$PROJECT_DIR$/pics/omega=1.1_eps=0.2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pics/omega=1.1_eps=0.24.png" beforeDir="false" afterPath="$PROJECT_DIR$/pics/omega=1.1_eps=0.24.png" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -57,41 +25,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/DiffEq.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="305">
-              <caret line="125" selection-start-line="125" selection-end-line="125" />
+            <state relative-caret-position="3550">
+              <caret line="142" lean-forward="true" selection-start-line="142" selection-end-line="142" />
               <folding>
                 <element signature="e#0#31#0" expanded="true" />
-                <element signature="e#194#214#0" />
-                <element signature="e#231#254#0" />
-                <element signature="e#271#303#0" />
-                <element signature="e#320#365#0" />
-                <element signature="e#382#410#0" />
-                <element signature="e#427#459#0" />
-                <element signature="e#512#1049#0" />
-                <element signature="e#1067#1383#0" />
-                <element signature="e#1448#1508#0" />
-                <element signature="e#1539#1649#0" />
-                <element signature="e#1680#2066#0" />
-                <element signature="e#2124#2569#0" />
-                <element signature="e#2593#3024#0" />
-                <element signature="e#3063#3151#0" />
-                <element signature="e#3176#3230#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/accessory/FourierPlot.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="850">
-              <caret line="34" selection-start-line="34" selection-end-line="34" />
-              <folding>
-                <element signature="e#0#18#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="100">
+              <caret line="4" selection-start-line="4" selection-end-line="5" selection-end-column="68" />
             </state>
           </provider>
         </entry>
@@ -142,15 +92,14 @@
         <option value="$PROJECT_DIR$/../задача_курсовая/ExtendedFunc.py" />
         <option value="$PROJECT_DIR$/../задача_курсовая/MyTest.py" />
         <option value="$PROJECT_DIR$/accessory/Runge.py" />
-        <option value="$PROJECT_DIR$/accessory/FourierPlot.py" />
         <option value="$PROJECT_DIR$/WorkWFiles.py" />
+        <option value="$PROJECT_DIR$/accessory/FourierPlot.py" />
         <option value="$PROJECT_DIR$/DiffEq.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="750" />
-    <option name="y" value="65" />
+    <option name="x" value="642" />
     <option name="width" value="1155" />
     <option name="height" value="985" />
   </component>
@@ -167,6 +116,16 @@
               <item name="sync" type="b2602c69:ProjectViewProjectNode" />
               <item name="sync" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="sync" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sync" type="462c0819:PsiDirectoryNode" />
+              <item name="phase drive" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sync" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sync" type="462c0819:PsiDirectoryNode" />
+              <item name="pics" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -174,7 +133,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/accessory/lapunov_stream.py" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../задача_курсовая/MyTest.py" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunDashboard">
@@ -305,21 +264,22 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="840" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1665565" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1665565" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32909605" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.91738266" visible="true" weight="0.289548" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3997175" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32909605" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32909605" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32909605" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.08261732" side_tool="true" weight="0.36864406" />
-      <window_info anchor="bottom" id="Python Console" order="10" weight="0.32909605" />
+      <window_info anchor="bottom" id="Debug" order="2" weight="0.3997175" />
+      <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="5" weight="0.32909605" />
+      <window_info anchor="bottom" id="Version Control" order="6" weight="0.32909605" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32909605" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.08261732" side_tool="true" weight="0.36864406" />
+      <window_info anchor="bottom" id="Python Console" order="9" weight="0.32909605" />
+      <window_info active="true" anchor="bottom" id="Run" order="10" sideWeight="0.91738266" visible="true" weight="0.32485875" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -384,41 +344,12 @@
     <entry file="file://$PROJECT_DIR$/Lyapunov.py" />
     <entry file="file://$PROJECT_DIR$/FourierPlot.py" />
     <entry file="file://$PROJECT_DIR$/../задача_курсовая/AKF.py" />
-    <entry file="file://$PROJECT_DIR$/accessory/lyapunov_data_2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1850">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/accessory/AKF.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1485">
-          <folding>
-            <element signature="e#0#12#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/accessory/lyapunov_data_2.py" />
+    <entry file="file://$PROJECT_DIR$/accessory/AKF.py" />
     <entry file="file://$PROJECT_DIR$/accessory/lapunov_data.py" />
     <entry file="file://$PROJECT_DIR$/../задача_курсовая/ExtendedFunc.py" />
     <entry file="file://$PROJECT_DIR$/../задача_курсовая/ApproximationFunc.py" />
-    <entry file="file://$PROJECT_DIR$/../задача_курсовая/MyTest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="23" column="19" lean-forward="true" selection-start-line="23" selection-start-column="19" selection-end-line="23" selection-end-column="19" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/accessory/in.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/accessory/in.txt" />
     <entry file="file://$PROJECT_DIR$/solutions/0.8_w_eps=0.1.dat">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -456,37 +387,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DiffEq.py">
+    <entry file="file://$PROJECT_DIR$/../задача_курсовая/MyTest.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="305">
-          <caret line="125" selection-start-line="125" selection-end-line="125" />
+        <state relative-caret-position="-44">
+          <caret line="23" column="16" lean-forward="true" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="16" />
           <folding>
-            <element signature="e#0#31#0" expanded="true" />
-            <element signature="e#194#214#0" />
-            <element signature="e#231#254#0" />
-            <element signature="e#271#303#0" />
-            <element signature="e#320#365#0" />
-            <element signature="e#382#410#0" />
-            <element signature="e#427#459#0" />
-            <element signature="e#512#1049#0" />
-            <element signature="e#1067#1383#0" />
-            <element signature="e#1448#1508#0" />
-            <element signature="e#1539#1649#0" />
-            <element signature="e#1680#2066#0" />
-            <element signature="e#2124#2569#0" />
-            <element signature="e#2593#3024#0" />
-            <element signature="e#3063#3151#0" />
-            <element signature="e#3176#3230#0" />
+            <element signature="e#0#18#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/accessory/FourierPlot.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="850">
-          <caret line="34" selection-start-line="34" selection-end-line="34" />
+        <state relative-caret-position="100">
+          <caret line="4" selection-start-line="4" selection-end-line="5" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DiffEq.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3550">
+          <caret line="142" lean-forward="true" selection-start-line="142" selection-end-line="142" />
           <folding>
-            <element signature="e#0#18#0" expanded="true" />
+            <element signature="e#0#31#0" expanded="true" />
           </folding>
         </state>
       </provider>
